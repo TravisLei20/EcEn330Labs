@@ -1,0 +1,30 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../platforms/emulator/include/xil_io.h
+stdint.h
+-
+
+../platforms/emulator/include/xparameters.h
+xparameters_ps.h
+../platforms/emulator/include/xparameters_ps.h
+
+../platforms/emulator/include/xparameters_ps.h
+
+/fsd/leicr/ecen330/drivers/intervalTimer.c
+intervalTimer.h
+/fsd/leicr/ecen330/drivers/intervalTimer.h
+xil_io.h
+/fsd/leicr/ecen330/drivers/xil_io.h
+xparameters.h
+/fsd/leicr/ecen330/drivers/xparameters.h
+
+/fsd/leicr/ecen330/drivers/intervalTimer.h
+stdint.h
+-
+
