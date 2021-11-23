@@ -1,0 +1,46 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/display.h
+stdbool.h
+-
+stdint.h
+-
+stdlib.h
+-
+
+../include/utils.h
+
+/fsd/leicr/ecen330/lab4/clockControl.c
+clockControl.h
+/fsd/leicr/ecen330/lab4/clockControl.h
+clockDisplay.h
+/fsd/leicr/ecen330/lab4/clockDisplay.h
+display.h
+/fsd/leicr/ecen330/lab4/display.h
+stdio.h
+/fsd/leicr/ecen330/lab4/stdio.h
+
+/fsd/leicr/ecen330/lab4/clockControl.h
+
+/fsd/leicr/ecen330/lab4/clockDisplay.c
+clockDisplay.h
+/fsd/leicr/ecen330/lab4/clockDisplay.h
+display.h
+/fsd/leicr/ecen330/lab4/display.h
+utils.h
+/fsd/leicr/ecen330/lab4/utils.h
+stdio.h
+-
+string.h
+-
+
+/fsd/leicr/ecen330/lab4/clockDisplay.h
+stdbool.h
+-
+
